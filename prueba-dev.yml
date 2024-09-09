@@ -1,7 +1,7 @@
 spring:
     datasource:
         driver-class-name: oracle.jdbc.driver.OracleDriver
-        url: jdbc:oracle:thin:@sigesadesa.una.ac.cr:1521/DESA08.una.ac.cr
+        url: jdbc:oracle:thin:@sigesadesa.una.ac.cr:1521/DESA02.una.ac.cr
         username: www_sigesa
         password: sigesa2015
     jpa:
