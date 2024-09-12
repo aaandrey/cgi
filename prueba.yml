@@ -1,6 +1,4 @@
 spring:
-    application:
-        name: prueba
     datasource:
          hikari:
             connectionTimeout: 30000
@@ -16,10 +14,6 @@ spring:
             hibernate:
                 jdbc:
                     time-zone: UTC
-        #         '[hibernate.format_sql]': true
-        #         type: trace  
-        # show-sql: true
-        open-in-view: true
     mail:
         host: smtp.example.com
         port: 587
@@ -39,8 +33,6 @@ eureka:
             defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
 server:
   port: 8383
-logging:
-  level:
-    '[org.springframework.web]': DEBUG
+
 una:
     modulo: 37 
