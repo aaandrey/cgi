@@ -9,6 +9,9 @@ spring:
 
     liquibase:
         enabled: false
+
+    profiles:
+        active: defecto  
     jpa:
         properties:
             hibernate:
