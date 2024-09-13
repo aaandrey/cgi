@@ -8,4 +8,4 @@ spring:
         database-platform: org.hibernate.community.dialect.Oracle12cDialect
 
     profiles:
-        active: cargo  
+        active: produccion  
