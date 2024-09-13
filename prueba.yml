@@ -11,7 +11,7 @@ spring:
         enabled: false
 
     profiles:
-        active: defecto  
+        active: prod  
     jpa:
         properties:
             hibernate:
