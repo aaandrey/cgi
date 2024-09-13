@@ -7,7 +7,7 @@ spring:
         restart:
             enabled: true
     profiles:
-        active: oracle  
+        active: dev  
 
     liquibase:
         enabled: false
