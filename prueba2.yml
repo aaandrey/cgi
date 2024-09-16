@@ -1,0 +1,41 @@
+spring:
+    datasource:
+         hikari:
+            connectionTimeout: 30000
+            idleTimeout: 600000   
+    devtools:
+        restart:
+            enabled: true
+
+    liquibase:
+        enabled: false
+
+    profiles:
+        active: dev  
+    jpa:
+        properties:
+            hibernate:
+                jdbc:
+                    time-zone: UTC
+    mail:
+        host: smtp.example.com
+        port: 587
+        username: your-email@example.com
+        password: your-password
+        properties:
+            mail:
+                smtp:
+                auth: true
+                starttls:
+                    enable: true     
+eureka:
+    instance:
+        prefer-ip-address: true
+    client:
+        serviceUrl:
+            defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
+server:
+  port: 8387
+
+una:
+    modulo: 37 
