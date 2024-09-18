@@ -1,0 +1,29 @@
+spring:
+    application:
+        name: seguridad-administracion
+    datasource:
+         hikari:
+            connectionTimeout: 30000
+            idleTimeout: 600000   
+    jpa:
+        properties:
+            hibernate:
+                jdbc:
+                    time-zone: UTC
+                # '[hibernate.format_sql]': true
+                # type: trace  
+        # show-sql: true
+        # open-in-view: true
+eureka:
+    instance:
+        prefer-ip-address: true
+    client:
+        serviceUrl:
+            defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}    
+server:
+  port: 8083
+logging:
+  level:
+    '[org.springframework.web]': DEBUG
+una:
+    modulo: 4
