@@ -1,0 +1,8 @@
+spring:
+    datasource:
+        driver-class-name: oracle.jdbc.driver.OracleDriver
+        url: jdbc:oracle:thin:@sigesadesa.una.ac.cr:1521/DESA04.una.ac.cr
+        username: www_sigesa
+        password: sigesa2015
+    jpa:
+        database-platform: org.hibernate.community.dialect.Oracle12cDialect
