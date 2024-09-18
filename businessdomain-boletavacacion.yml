@@ -5,8 +5,6 @@ spring:
         name: businessdomain-boletavacacion
     liquibase:
         enabled: false
-    profiles:
-        active: domains
     # graphql:
     #     graphiql:
     #         enabled: true
