@@ -1,0 +1,2 @@
+restclient:
+  funcionario-url: http://businessdomain-funcionario/api/funcionario
